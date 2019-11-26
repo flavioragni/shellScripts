@@ -1,4 +1,4 @@
 # shellScripts
 
-Collection of shell scripts pertaining to different projects, used on SGE servers.
-They allow the user to parallelize jobs and perform operations on data store in shell environment.
+Collection of shell scripts used on SGE servers pertaining to different projects.
+They allow the user to parallelize jobs and perform operations on data stored in shell environment.
