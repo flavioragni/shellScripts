@@ -1,0 +1,5 @@
+for current_roi in 'group_SPL_Left_thr50_2mm' 'group_AIPs_Left_thr50_2mm' 'LOC_Left_sphere8_2mm_bin' 'V1_BA17_Thr50'
+do 
+	/usr/local/fsl/bin/fsl_sub -l /mnt/raidVol2/flavio.ragni/messages/ featquery 1 /mnt/raidVol2/flavio.ragni/guessTheDot/single_stim/univariate/linear/group_2ndLevel_IMAGERY.gfeat/cope7.feat 42  stats/cope1 stats/cope2 stats/cope3 stats/cope4 stats/cope5 stats/cope6 stats/cope7 stats/cope8 stats/cope9 stats/cope10 stats/cope11 stats/cope12 stats/cope13 stats/cope14 stats/cope15 stats/cope16 stats/cope17 stats/cope18 stats/cope19 stats/cope20 stats/cope21 thresh_zstat1 thresh_zstat2 thresh_zstat3 thresh_zstat4 thresh_zstat5 thresh_zstat6 thresh_zstat7 thresh_zstat8 thresh_zstat9 thresh_zstat10 thresh_zstat11 thresh_zstat12 thresh_zstat13 thresh_zstat14 thresh_zstat15 thresh_zstat16 thresh_zstat17 thresh_zstat18 thresh_zstat19 thresh_zstat20 thresh_zstat21 "featquery_"$current_roi -p -s "/mnt/raidVol2/flavio.ragni/guessTheDot/single_stim/univariate/rois/"$current_roi".nii.gz"
+
+done
